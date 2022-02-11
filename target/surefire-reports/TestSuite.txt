@@ -1,0 +1,9 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 4.944 s <<< FAILURE! - in TestSuite
+com.practiceautomation.TestRunner.TestRunner.feature[Youtube Search Validation](1)  Time elapsed: 4.37 s  <<< FAILURE!
+cucumber.runtime.CucumberException: java.lang.AssertionError: expected [true] but found [false]
+	at com.practiceautomation.TestRunner.TestRunner.feature(TestRunner.java:31)
+Caused by: java.lang.AssertionError: expected [true] but found [false]
+

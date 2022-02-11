@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Search a video on Youtube with given text",
+        "description": "",
+        "id": "youtube-search-validation;search-a-video-on-youtube-with-given-text",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4184100474,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "User launches Browser",
+            "match": {
+              "location": "TestCasesStepDef.openBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 127803776,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Launches youtube website",
+            "match": {
+              "location": "TestCasesStepDef.launchYoutube()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488383618,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enters text in Search Field \"Swapnil Gorey\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Swapnil Gorey",
+                  "offset": 29
+                }
+              ],
+              "location": "TestCasesStepDef.searchVideo(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 12132462135,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Related Videos should be displayed",
+            "match": {
+              "location": "TestCasesStepDef.verifyVideo()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1116868429,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Quit browser Session",
+            "match": {
+              "location": "TestCasesStepDef.tearDown()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Youtube Search Validation",
+    "description": "",
+    "id": "youtube-search-validation",
+    "keyword": "Feature",
+    "uri": "TestCases.feature"
+  }
+]
